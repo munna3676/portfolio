@@ -43,7 +43,7 @@ a {
 
 /* Navbar CSS */
 .navbar {
-  padding: 20px 0px;
+  padding: 20px 2px;
   /* position: fixed; */
   /* width: 90%; */
   display: flex;
