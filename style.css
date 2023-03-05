@@ -4,12 +4,14 @@
 }
 body {
   box-sizing: border-box;
+  font-family: 'Golos Text', sans-serif;
 }
 li {
   list-style: none;
 }
 a {
   text-decoration: none;
+  color: #fff;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -38,7 +40,7 @@ a {
     url("./assets/munnaimg2.jpg");
   background-repeat: no-repeat;
   background-position: center right;
-  background-size: 100%;
+  background-size: cover;
 }
 
 /* Navbar CSS */
@@ -52,8 +54,8 @@ a {
 }
 
 .logo > img {
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 130px;
   border-radius: 50%;
 }
 
@@ -87,6 +89,7 @@ a {
 }
 .banner-box > h4 {
   font-size: 36px;
+  
   margin-top: 10px;
   color: rgb(3, 43, 59);
 }
